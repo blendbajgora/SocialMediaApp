@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "803175916163",
+    "firebase_url": "https://twitterapp-b02fd-default-rtdb.europe-west1.firebasedatabase.app/",
+    "project_id": "twitterapp-b02fd",
+    "storage_bucket": "twitterapp-b02fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803175916163:android:c81876985529fbdae3b1b6",
+        "android_client_info": {
+          "package_name": "com.example.twitterapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMnzRv9pXr3Pb3-jTmaCq_P5WPoyaJ3Pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

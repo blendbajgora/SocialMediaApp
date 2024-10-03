@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Twitter Logo at the top -->
+    <ImageView
+        android:id="@+id/twitterLogo"
+        android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:src="@drawable/twitter"
+    android:layout_gravity="center"
+    android:contentDescription="Twitter Logo"
+    android:layout_marginBottom="16dp" />
+
+    <!-- Buttons Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/postTweetButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Tweet"
+            android:minHeight="48dp"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="8dp"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Profile"
+            android:minHeight="48dp"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="8dp"
+            android:layout_marginStart="8dp" />
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Logout"
+            android:minHeight="48dp"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="8dp"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- RecyclerView for tweets -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/tweetsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="16dp" />
+</LinearLayout>
